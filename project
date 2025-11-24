@@ -1,0 +1,125 @@
+1.Introduction
+
+This project is a console-based Library Management System implemented in Python. The system allows the administrator to manage books, members, and book issuing/returning processes.
+Through this project, we learned modular programming, file handling, and system design.
+
+2. Problem Statement
+
+Traditional library management using manual registers or Excel sheets is time-consuming, error-prone, and not scalable. There is a need for a lightweight, simple digital solution to efficiently manage book inventory and borrowing records.
+
+3. Objectives
+
+To create a functional and efficient library management system
+
+To automate book storage and issuing process
+
+To maintain member details and borrowing history
+
+To practice Python file handling and modular development
+
+4. Functional Requirements
+
+✔ Add new books
+✔ View and search books
+✔ Register new library members
+✔ Issue books
+✔ Return books
+✔ Display issued book records
+
+5. Non-Functional Requirements
+
+✔ Usability — Simple and easy to operate
+✔ Reliability — Data stored in persistent files
+✔ Maintainability — Modular code
+✔ Performance — Fast execution even with large data
+✔ Scalability — Can be extended to DB or GUI
+
+6. System Architecture
+
+6.1 Use Case Diagram
+
+6.2 Flowchart
+
+6.3 Sequence Diagram
+
+6.4 Class / Component Diagram
+
+6.5 ER Diagram
+
+7. Implementation Details
+
+Programming Language: Python
+Storage: File-based (.txt files)
+Modules:
+
+main.py — main menu & navigation
+
+book.py — add/search/display books
+
+member.py — register/display members
+
+issue_return.py — issue & return system
+
+storage.py — data saving/loading (file handling)
+
+data/books.txt — book database
+
+data/members.txt — member database
+
+data/issued.txt — issued book database
+
+8. Testing Approach
+Test Case	Input	Expected Output	Result
+Add Book	ID=101	Book added	PASS
+Add Member	ID=501	Member added	PASS
+Issue Book	Book=101, Member=501	Issued successfully	PASS
+Return Book	Book=101	Book returned	PASS
+Search Book	Title=“Atomic”	Matches displayed	PASS
+
+9. Challenges Faced
+
+Handling string formatting in .txt files
+
+Avoiding duplicate IDs
+
+Case-sensitive file naming (data vs Data)
+
+Modularizing code into multiple files
+
+10o. Learnings
+
+Python file I/O
+
+Data persistence
+
+Designing maintainable code
+
+Working with multiple modules
+
+Using GitHub for version control
+
+Professional project documentation
+
+11. Future Enhancements
+
+Graphical User Interface (Tkinter / Web UI)
+
+Database implementation using MySQL or SQLite
+
+User authentication (admin / staff)
+
+Advanced reporting & analytics
+
+12. Conclusion
+
+The Library Management System successfully fulfills the intended purpose of maintaining and automating library operations. This project demonstrates Python programming skills, systematic design, documentation, and real-world application development.
+
+13. References
+
+Python Documentation: https://docs.python.org
+
+StackOverflow discussions
+
+Classroom lectures and course materials
+
+GitHub reference projects

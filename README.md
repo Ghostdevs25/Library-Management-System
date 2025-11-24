@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23727621/README.md)
 # Library Management System (Console Version)
 
 ## Overview

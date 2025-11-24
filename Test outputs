@@ -1,1 +1,12 @@
 
+--- BOOK MANAGEMENT ---
+1. Add Book
+2. Search Book
+3. Display Books
+4. Back
+
+Enter choice: 1
+Enter Book ID: 101
+Enter Book Title: Atomic Habits
+Enter Author: James Clear
+✔ Book added successfully!

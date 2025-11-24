@@ -20,8 +20,6 @@ This project is a Python-based library management system which is operated throu
 python main.py
 
 ## Technologies Used
-
-## Technologies Used
 - Python 3
 - Local file-based storage (`.txt` files)
 
